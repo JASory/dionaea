@@ -1,6 +1,8 @@
 Application for storing/reading unstructured numerical data. 
 
-If a text file consists solely of integers or floats then it is more space-efficient to store the values as binary data. It is also more efficient for programs to read binary data directly rather than parsing text. 
+If a text file consists solely of integers or floats then it is more space-efficient to store the values as binary data. It is also more efficient for programs to read binary data directly rather than parsing text.
+
+All data is treated as little-endian. 
 
 # Datatypes
 32-bit, 64-bit, 128-bit integers, 32-bit and 64-bit float
